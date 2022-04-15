@@ -1,0 +1,9 @@
+body {
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:    "header header header  header  header"
+                                "h1     h1     h1      h1      h1"
+                                "aside  main   main    main    aside"
+                                "footer footer footer  footer  footer"  
+}
