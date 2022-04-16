@@ -1,9 +1,33 @@
-body {
+.contenedor {
     display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        grid-template-areas:    "header header header  header  header"
-                                "h1     h1     h1      h1      h1"
-                                "aside  main   main    main    aside"
-                                "footer footer footer  footer  footer"  
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-areas: "header header header"
+                         "h1 h1 h1"
+                         "aside1 main aside2"
+                         "footer footer footer";
 }
+
+.contenedor .header {
+    grid-area: header;
+}
+
+.contenedor .h1 {
+    grid-area: h1;
+}
+
+.contenedor .aside1 {
+    grid-area: aside1;
+}
+
+.contenedor .main {
+    grid-area: main;
+}
+
+.contenedor .aside2 {
+    grid-area: aside2;
+}
+
+.contenedor .footer {
+    grid-area: footer;
+}
+
