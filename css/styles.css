@@ -31,11 +31,18 @@ body {
     justify-content: space-between;
 }
 
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo {
-    width: auto;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     margin: 0;
     padding: 0;
+    
 }
 
 .header__nav {
@@ -62,6 +69,7 @@ body {
     transition-duration: 0.3s;
     margin: 20px;
     padding: 8px;
+    font-size: 1.2rem;
 }
 
 .hvr-shutter-out-horizontal:before {
@@ -88,6 +96,7 @@ body {
 
 .hvr-shutter-out-horizontal:hover a {
     color: white;
+    font-size: 1.2rem;
 }
 
 .hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
@@ -120,7 +129,22 @@ body {
 /* MAIN */
 
 .main {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
 
+.main__text {
+    display: flex;
+    padding: 30px;
+    margin: 10px;
+    font-size: 1.6rem;
+    color: #ffffff;
+    background-color: #9900ffc2;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
 }
 
 /* ASIDE 2 */
