@@ -8,7 +8,9 @@
 }
 
 body {
-    background: url(/img/back.svg);
+    /* background: url(/img/back.svg); */
+    /* background-color: black; */
+    background: url(/img/back-2.svg);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -62,7 +64,7 @@ body {
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
-    background: #140021;
+    /* background: #140021; */
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.3s;
@@ -116,7 +118,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 2.5rem;
-    margin: 40px;
+    margin: 20px;
     color: #9900ff;
 }
 
@@ -132,19 +134,83 @@ body {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+    margin: 20px;
 }
 
 .main__text {
     display: flex;
     padding: 30px;
-    margin: 10px;
+    margin: 0px 0px 50px 0px;
     font-size: 1.6rem;
     color: #ffffff;
     background-color: #9900ffc2;
     border-radius: 30px;
     justify-content: center;
     align-items: center;
+    text-align:center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__img {
+    width: 200px;
+    height: auto;
+}
+
+.section__p {
+    display: flex;
+    background-color: rgba(238, 130, 238, 0.5);
+    color: #9900ff;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.section__web {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     text-align: justify;
+    gap: 50px;
+    margin: 30px;
+}
+
+.section__responsive {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    gap: 50px;
+    margin: 30px;
+}
+
+.section__dominio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    gap: 50px;
+    margin: 30px;
+}
+
+.section__equipo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    gap: 50px;
+    margin: 30px;
 }
 
 /* ASIDE 2 */
@@ -212,6 +278,7 @@ body {
     width: auto;
     height: auto;
     border-radius: 20px;
+    padding: 20px;
 }
 
 .hvr-ripple-out:hover:before, .hvr-ripple-out:focus:before, .hvr-ripple-out:active:before {
