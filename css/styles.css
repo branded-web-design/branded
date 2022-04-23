@@ -8,8 +8,6 @@
 }
 
 body {
-    /* background: url(/img/back.svg); */
-    /* background-color: black; */
     background: url(/img/back-2.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,7 +16,6 @@ body {
 }
 
 .contenedor {
-    width: 100vw;
     max-width: fit-content;
     height: auto;
     margin: 20px;
@@ -143,7 +140,7 @@ body {
     margin: 0px 0px 50px 0px;
     font-size: 1.6rem;
     color: #ffffff;
-    background-color: #9900ffc2;
+    /* background-color: #9900ffc2; */
     border-radius: 30px;
     justify-content: center;
     align-items: center;
@@ -211,6 +208,12 @@ body {
     text-align: justify;
     gap: 50px;
     margin: 30px;
+}
+
+.section__p {
+    background-image: url(../img/bg-text2.svg);
+    background-size: cover;
+    color: white;
 }
 
 /* ASIDE 2 */
