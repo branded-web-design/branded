@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url(/img/back-2.svg);
+    background: url(../img/back-2.svg);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
