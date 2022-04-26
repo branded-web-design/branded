@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 8fr 1fr;
     grid-template-areas: "header header header"
                          "h1 h1 h1"
-                         "aside1 main aside2"
+                         "main main main"
                          "footer footer footer";
 }
 
@@ -15,16 +15,8 @@
     grid-area: h1;
 }
 
-.contenedor .aside1 {
-    grid-area: aside1;
-}
-
 .contenedor .main {
     grid-area: main;
-}
-
-.contenedor .aside2 {
-    grid-area: aside2;
 }
 
 .contenedor .footer {
